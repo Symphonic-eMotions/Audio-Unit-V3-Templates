@@ -10,6 +10,7 @@
 //==============================================================================
 // Define parameter addresses.
 extern const AUParameterAddress myParam1;
+
 //==============================================================================
 @interface templateAUfxWithParametersAudioUnit : AUAudioUnit
 

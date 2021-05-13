@@ -43,6 +43,7 @@ public class AudioUnitViewController: AUViewController, AUAudioUnitFactory
 
     @IBAction func handleGainSliderValueChanged(_ sender: NSSlider)
     {
+        print("sender.floatValue \(sender.floatValue)")
         guard let modulatorUnit = audioUnit as? templateAUfxWithParametersAudioUnit else {return}
         guard let gainParameter = modulatorUnit.parameterTree?.parameter(withAddress: myParam1) else { return }
         gainParameter.setValue(sender.floatValue, originator: nil)
