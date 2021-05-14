@@ -28,8 +28,8 @@
                         <action selector="handleGainSliderValueChanged:" target="-2" id="K2s-Nu-DDQ"/>
                     </connections>
                 </slider>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97O-Cn-Qbw">
-                    <rect key="frame" x="179" y="203" width="116" height="26"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="97O-Cn-Qbw">
+                    <rect key="frame" x="179" y="203" width="110" height="26"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Control ME" id="OV2-Sa-Atk">
                         <font key="font" metaFont="system" size="22"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
